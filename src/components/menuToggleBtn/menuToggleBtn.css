@@ -1,0 +1,95 @@
+.btn-container{
+    position: relative;
+    display: inline-block;
+
+}
+.btn-container a {
+    color: black;
+    padding: 12px;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    margin: 0 10px;
+    z-index: 10;
+    background: rgb(228, 228, 228);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+    text-align: left;
+    border-radius: 25px;
+    border: none;
+}
+.disable{
+      display: none;
+  }
+
+  .dropdown-menu-header{
+      background: white;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      border-radius: 25px 25px 0 0;
+  }
+
+  .dropdown-menu-icon{
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background: rgb(238, 238, 238);
+    border-radius: 50%
+}
+  
+  .btn-container ul {
+    background: rgb(228, 228, 228);
+    border-radius: 0 0 25px 25px ;
+    list-style: none;
+    padding: 0;
+    margin:  0;
+}
+.btn-container  li {
+    background: white;
+    padding: 18px 12px;
+    margin: 1px ;
+}
+
+.btn-container li:last-child{
+    border-radius: 0 0 25px 25px ;
+  }
+  
+  .btn-container li:hover {
+    background-color: rgba(128, 128, 128, 0.14);
+    cursor: pointer;
+  }
+
+  .log-in-out{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px;
+  }
+  
+  .small-screen-li{
+    display: none;
+  }
+
+
+
+@media screen and (max-width: 500px) {
+  .small-screen-li{
+    display:block ;
+  }
+
+  .btn-container li:last-child{
+    border-radius: 0;
+  }
+
+  .small-screen-li li:last-child{
+    border-radius: 0 0 25px 25px ;
+  }
+
+}

@@ -1,0 +1,30 @@
+.button-component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 100px;
+    line-height: 0;
+    margin:  5px;
+    font-size: 1rem;
+    padding: 1.3em 2.8em;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.button-component:hover{
+    margin-top: -1px;
+}
+
+.button-component.inverted {
+    background: rgb(247, 247, 247);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.button-component a{
+    color: white;
+}
