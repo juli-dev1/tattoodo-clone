@@ -8,6 +8,4 @@ In the project directory, you can run:
 
 ### `npm start`
 
-I use JSON SERVER for DATA , run:
 
-### `npm run server`
