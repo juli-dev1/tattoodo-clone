@@ -1,11 +1,10 @@
-.button-component{
+.saveBtn{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 36px;
     max-width: max-content;
     white-space: nowrap;
-    background-color: rgba(0, 0, 0, 0.89);
     border-radius: 100px;
     line-height: 0;
     margin:  5px;
@@ -13,18 +12,11 @@
     padding: 1.3em 2.8em;
     border: none;
     cursor: pointer;
-    color: white;
-}
-.button-component:hover{
-    transform: scale(1.02);
-}
-
-.button-component.inverted {
-    background: rgb(247, 247, 247);
+    background: rgba(255, 255, 255, 0);
     color: rgb(0, 0, 0);
-    border: 1px solid black;
+    border: 1px solid rgb(231, 231, 231);
+    font-weight: 700;
 }
-
-.button-component a{
-    color: white;
+.saveBtn:hover{
+    transform: scale(1.04);
 }

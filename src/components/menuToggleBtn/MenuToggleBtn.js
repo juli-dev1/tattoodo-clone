@@ -7,7 +7,7 @@ import './menuToggleBtn.css'
 function MenuBtn() {
 
     const [disable, setDisable] = useState(true);
-
+    
     const disableFunction = () => {
         setDisable(!disable)
     }

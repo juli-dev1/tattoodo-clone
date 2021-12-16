@@ -9,7 +9,7 @@ function Search() {
     window.onscroll = function () { addClassFunction() };
 
     function addClassFunction() {
-        if (window.pageYOffset > 155) {
+        if (window.pageYOffset > 145) {
             setAddStickyClass('sticky')
         } else {
             setAddStickyClass('')

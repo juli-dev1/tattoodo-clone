@@ -122,5 +122,131 @@
       "artist": "Artist 10",
       "image": "https://d1kq2dqeox7x40.cloudfront.net/images/destinations/20200128_n3HFS8f2gwxbFAB.jpg?w=400"
     }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Sven",
+      "username": "Rayen",
+      "profileImage": "https://d1kq2dqeox7x40.cloudfront.net/images/profile/images/20180713_FU8h9quDCNvBCTf.png?h=64&w=64",
+      "bio": "All designs are custom made with love, please do not copy✌",
+      "profiles": [
+        {
+          "name": "Instagram",
+          "src": "https://www.instagram.com/svenrayen/",
+          "icon":"IoLogoInstagram"
+        },
+        {
+          "name": "Website",
+          "src": "https://svenrayen.com/",
+          "icon":"IoLogoGoogle"
+        }
+      ],
+      "availability": "Next month",
+      "travelPlans": [],
+      "styles": [
+        {
+          "title": "Black & Gray"
+        },
+        {
+          "title": "Fineline"
+        },
+        {
+          "title": "Geometric"
+        },
+        {
+          "title": "Realism"
+        }
+      ],
+      "tattoo": [
+        {
+          "id": 1,
+          "image": "https://d1kq2dqeox7x40.cloudfront.net/images/posts/20210512_LYatTGbvUOqQLWk.jpg?w=150",
+          "likes": 0,
+          "comments": [],
+          "boards": [],
+          "postedAt": ""
+        },
+        {
+          "id": 2,
+          "image": "https://d1kq2dqeox7x40.cloudfront.net/images/posts/20210512_kmRcwGSAqjAGnSS.jpg?w=150",
+          "likes": 0,
+          "comments": [],
+          "boards": [],
+          "postedAt": ""
+        },
+        {
+          "id": 3,
+          "image": "https://d1kq2dqeox7x40.cloudfront.net/images/posts/20210429_asuvn5hFHIR9rb5.jpg?w=150",
+          "likes": 0,
+          "comments": [],
+          "boards": [],
+          "postedAt": ""
+        },
+        {
+          "id": 4,
+          "image": "https://d1kq2dqeox7x40.cloudfront.net/images/posts/20210512_NFOeuK018BlMAGI.jpg?w=150",
+          "likes": 0,
+          "comments": [],
+          "boards": [],
+          "postedAt": ""
+        },
+        {
+          "id": 5,
+          "image": "https://d1kq2dqeox7x40.cloudfront.net/images/posts/20190305_7R0NkLzTbsx1IvY.jpg?w=150",
+          "likes": 0,
+          "comments": [],
+          "boards": [],
+          "postedAt": ""
+        },
+        {
+          "id": 6,
+          "image": "https://d1kq2dqeox7x40.cloudfront.net/images/posts/20190124_nykuggWxT7eLxVK.png?w=150",
+          "likes": 0,
+          "comments": [],
+          "boards": [],
+          "postedAt": ""
+        },
+        {
+          "id": 7,
+          "image": "https://d1kq2dqeox7x40.cloudfront.net/images/posts/20180907_YenK8bRAVTOzEKi.png?w=150",
+          "likes": 0,
+          "comments": [],
+          "boards": [],
+          "postedAt": ""
+        },
+        {
+          "id": 8,
+          "image": "https://d1kq2dqeox7x40.cloudfront.net/images/posts/20180925_QCax8QKw9NFxA5i.png?w=150",
+          "likes": 0,
+          "comments": [],
+          "boards": [],
+          "postedAt": ""
+        },
+        {
+          "id": 9,
+          "image": "https://d1kq2dqeox7x40.cloudfront.net/images/posts/20180907_dlaA95qFy5vpg5r.png?w=150",
+          "likes": 0,
+          "comments": [],
+          "boards": [],
+          "postedAt": ""
+        },
+        {
+          "id": 10,
+          "image": "https://d1kq2dqeox7x40.cloudfront.net/images/posts/20180824_iL1aqV8ocXlKRZs.png?w=150",
+          "likes": 0,
+          "comments": [],
+          "boards": [],
+          "postedAt": ""
+        }
+      ],
+      "flash": [],
+      "workplace": [
+        {
+          "name": " ",
+          "location": ""
+        }
+      ]
+    }
   ]
 }

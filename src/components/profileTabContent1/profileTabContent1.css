@@ -1,0 +1,43 @@
+.bio p{
+    color: grey;
+}
+.socials{
+    color: grey;
+    display: flex;
+    width: 100%;
+    /* padding: 10px; */
+}
+.socials ul{
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+}
+
+.socials li{
+  display: flex;
+  justify-content: space-between;
+  line-height:1;
+  padding: 20px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+.socials a{
+  text-decoration: none;
+  color: grey;
+}
+
+.styles{
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.styles-item{
+  color: rgb(138, 138, 138);
+  margin: 5px;
+  padding: 0 15px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 30px;
+  border-radius: 25px;
+  border: 1px solid rgb(202, 202, 202);
+}
+

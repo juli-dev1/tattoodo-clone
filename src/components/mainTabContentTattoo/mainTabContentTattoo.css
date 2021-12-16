@@ -1,0 +1,26 @@
+.tattoo-tab{
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.tattoo-tab-column img{
+min-height: 200px;
+padding: 10px;
+width: 20%;
+border-radius: 25px;
+}
+
+@media screen and (max-width: 700px) {
+    .tattoo-tab-column img{
+        height: 200px;
+        padding: 10px;
+        width: 45%;
+        }
+}
+
+@media screen and (max-width: 400px) {
+    .tattoo-tab-column img{
+        padding: 5px;
+        }
+}

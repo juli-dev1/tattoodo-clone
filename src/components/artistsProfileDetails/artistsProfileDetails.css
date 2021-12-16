@@ -1,0 +1,99 @@
+.artistsProfileDetails{
+    width: 350px;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 25px 20px;
+    background: rgb(255, 255, 255);
+}
+.artistsProfileDetails-menuBtn{
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+}
+
+.artistsProfileDetails-header{
+    display: flex;
+}
+
+.activeCircle{
+    display: flex;
+    height: 5px;
+    width: 5px;
+    background: rgb(2, 197, 2);
+    border-radius: 50%;
+}
+.active{
+  display: flex;
+  line-height: 0.5;
+}
+
+.artistsProfileDetails-header-text{
+    margin:  0 10px;
+}
+p,
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2.username{
+    margin: 0;
+    padding: 0;
+}
+
+.status{
+    font-weight: 700;
+}
+
+.save-btn{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 10px 0;
+    /* text-align: center; */
+}
+
+
+.profileTabs-disable{
+    display: block;
+}
+
+.disable-btn{
+    text-align: center;
+    display: none;
+}
+
+
+@media screen and (max-width: 700px) {
+    .artistsProfileDetails{
+        position: relative;
+        width: 70%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+    .disable-btn{
+        display: block;
+        cursor: pointer;
+    }
+    .profileTabs-disable{
+        display: none;
+    }
+}
+
+/* @media screen and (max-width: 570px) {
+    .artistsProfileDetails{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .artistsProfileDetails{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .artistsProfileDetails{
+        width: 200px;
+    }
+} */

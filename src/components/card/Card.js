@@ -4,7 +4,7 @@ import './card.css'
 
 function Card({ item }) {
     return (
-        <Link to={`/artist/${item.artist}`} className='card'>
+        <Link to={`/artists/${item.artist}`} className='card'>
             <div className="card-container">
                 <img
                     width="100%"

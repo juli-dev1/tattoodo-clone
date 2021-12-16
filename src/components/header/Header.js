@@ -6,7 +6,7 @@ import Search from '../../components/search/Search';
 import MenuToggleBtn from '../menuToggleBtn/MenuToggleBtn';
 import './header.css'
 
-function Header() {
+function Header({ withSearchBar }) {
     return (
         <div className="container">
             <div className="header">
@@ -25,7 +25,11 @@ function Header() {
                     <MenuToggleBtn />
                 </div>
             </div>
-            <Search />
+            <div>
+                {
+                    withSearchBar && <Search />
+                }
+            </div>
         </div>
 
     )
