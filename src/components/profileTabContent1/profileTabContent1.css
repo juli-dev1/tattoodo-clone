@@ -19,6 +19,7 @@
   line-height:1;
   padding: 20px;
   border-bottom: 1px solid rgb(180, 180, 180);
+  cursor: pointer;
 }
 .socials a{
   text-decoration: none;

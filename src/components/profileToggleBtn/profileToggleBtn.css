@@ -1,0 +1,70 @@
+.profileToggleBtn-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profileToggleBtn-container a {
+  color: black;
+  /* padding: 12px; */
+}
+
+.profileToggleBtn-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 250px;
+  /* margin: 0 10px; */
+  z-index: 10;
+  background: rgb(255, 255, 255);
+  box-shadow: 5px 16px 24px 15px rgba(0, 0, 0, 0.14);
+  text-align: left;
+  border-radius: 25px;
+}
+
+
+.profileToggleBtn-container ul {
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+    border-radius:25px;
+    list-style: none;
+    cursor: pointer;
+    
+}
+.profileToggleBtn-container li {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+    padding: 10px 12px;
+    margin: 1px ;
+    font-size: 20px;
+}
+.profileToggleBtn-icon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    background: rgb(238, 238, 238);
+    border-radius: 50%
+
+}
+
+.profileToggleBtn-icon:hover{
+    background: rgb(231, 231, 231);
+}
+
+.profileToggleBtn-text:hover{
+    transform: scale(1.02);
+}
+
+@media screen and (max-width: 350px) {
+    .profileToggleBtn-menu{
+        width: 230px;
+    }
+}

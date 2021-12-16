@@ -4,6 +4,7 @@ import SaveBtn from '../saveBtn/SaveBtn'
 import "./artistsProfileDetails.css"
 import { IoEllipsisHorizontalSharp, IoChevronDownOutline, IoChevronUpOutline } from 'react-icons/io5'
 import ArtistProfileImage from '../artistProfileImage/ArtistProfileImage'
+import ProfileToggleBtn from '../profileToggleBtn/ProfileToggleBtn'
 
 
 function ArtistsProfileDetails({ artist }) {
@@ -12,7 +13,8 @@ function ArtistsProfileDetails({ artist }) {
     return (
         <div className='artistsProfileDetails'>
             <div className='artistsProfileDetails-menuBtn'>
-                <IoEllipsisHorizontalSharp size={22} />
+                {/* <IoEllipsisHorizontalSharp size={22} /> */}
+                { <ProfileToggleBtn /> }
             </div>
             <div className='artistsProfileDetails-header'>
                 <div>
@@ -21,7 +23,10 @@ function ArtistsProfileDetails({ artist }) {
                 <div className='artistsProfileDetails-header-text'>
                     <h2 className='username'>{artist.name} {artist.username}</h2>
                     
-                    <div className='active'><div className='activeCircle'></div><span className='status'>Availability: </span>{artist.availability}</div>
+                    <div className='active'>
+                        <div className='activeCircle'>
+                    </div>
+                    <span className='status'>Availability: </span>{artist.availability}</div>
                 </div>
             </div>
                 <div className='save-btn'>

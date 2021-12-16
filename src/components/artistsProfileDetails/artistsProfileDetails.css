@@ -26,6 +26,9 @@
   display: flex;
   line-height: 0.5;
 }
+.status{
+    padding:0 5px;
+}
 
 .artistsProfileDetails-header-text{
     margin:  0 10px;
